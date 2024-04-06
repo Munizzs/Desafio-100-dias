@@ -2,7 +2,7 @@ package Iniciante;
 
 import java.util.Scanner;
 
-public class DayTwo {
+public class _2 {
 //2-Calcule a soma da quantidade de números inteiros requerido pelo usuario.
 
     static Scanner sc = new Scanner(System.in);
