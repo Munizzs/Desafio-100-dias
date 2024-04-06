@@ -26,6 +26,6 @@ public class _3 {
             sit = "Impar";
         }
 
-        System.out.printf("O numero %d é %s.",num,sit);
+        System.out.printf("\nO numero %d é %s.",num,sit);
     }
 }
