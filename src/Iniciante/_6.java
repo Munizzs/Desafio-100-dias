@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class _6 {
-    //6-Implemente um programa para calcular a média de números determinados pelo usuario.
+    //6-Faça um programa para calcular a média de números determinados pelo usuario.
     static ArrayList <Integer> num = new ArrayList<>();
 
     public static int media(){
         int soma=0;
-        for (int i =0;i< num.size();i++){
+        for(int i =0;i< num.size();i++){
             soma += num.get(i);
         }
         return soma/ num.size();
