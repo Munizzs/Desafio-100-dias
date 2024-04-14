@@ -6,11 +6,13 @@ import java.util.Scanner;
 public class _10 {
     //10-Crie um programa para inverter uma string.
 
-    static ArrayList <Character> inv = new ArrayList<>();
-    public static void inverter(String word){
+
+    public static ArrayList <Character> inverter(String word){
+        ArrayList <Character> inv = new ArrayList<>();
         for(int i =0;i<word.length();i++){
             inv.add(word.charAt(i));
         }
+        return inv;
     }
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class _10 {
         System.out.println("Type a word:");
         String word = sc.nextLine();
 
-        inverter(word);
+        ArrayList inv = inverter(word);
 
         for(int i =inv.size()-1;i>=0;i--){
                 System.out.print(inv.get(i));
